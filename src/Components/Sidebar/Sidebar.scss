@@ -1,0 +1,29 @@
+.Sidebar {
+  width: 15%;
+  min-height: 100vh;
+  border-right: 1px solid #000000;
+  background: darksalmon;
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+
+    .link {
+      color:darkslategrey;
+      padding: 10px 0 0 10px;
+      font-size: 20px;
+
+      &:hover {
+        color: slategrey;
+      }
+    }
+
+    .active-link {
+      text-decoration: none;
+      color:aliceblue;
+      padding: 10px 0 0 10px;
+      font-size: 20px;
+    }
+  }
+}

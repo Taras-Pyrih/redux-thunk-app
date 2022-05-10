@@ -1,0 +1,22 @@
+.Counter {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  padding-top: 20px;
+  background: burlywood;
+
+  button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+  }
+
+  p {
+    padding: 0 20px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+}
