@@ -1,0 +1,24 @@
+.UserList {
+  min-height: 100vh;
+  background: cadetblue;
+
+  h1 {
+    padding: 20px 50px 20px 40px;
+    text-align: center;
+  }
+
+  ul {
+    width: 35%;
+    margin: 0 auto;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .notification {
+    padding: 20px 50px 20px 40px;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+  }
+}

@@ -3,7 +3,7 @@ import { SUCCESS, FAILURE } from "../actionTypes/requestActionTypes.jsx";
 const initialState = {
   users: [],
   isReady: false,
-  notification: ''
+  notification: 'Завантаження списку користувачів...'
 };
 
 export const userListReducer = (state = initialState, action) => {

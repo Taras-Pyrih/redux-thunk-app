@@ -1,0 +1,64 @@
+.ListItem {
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  background: gainsboro;
+
+  .top-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    img {
+      width: 125px;
+      border-radius: 10px;
+    }
+
+    .top-row__right-side {
+      width: 70%;
+
+      p {
+        padding: 5px 0;
+        font-style: italic;
+
+        span {
+          color:indianred;
+          font-size: 1.25em;
+          font-weight: bold;
+          font-style: normal;
+        }
+
+        .link {
+          color: darkslategray;
+          text-decoration: none;
+          font-size: 1.5em;
+          font-weight: bold;
+          font-style: normal;
+      
+          &:hover {
+            color: black;
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+
+  .bottom-row {
+    p {
+      padding: 5px 0;
+      font-style: italic;
+
+      &:last-child {
+        padding-bottom: 0;
+      }
+      
+      span {
+        color:chocolate;
+        font-size: 1.25em;
+        font-weight: bold;
+        font-style: normal;
+      }
+    }
+  }
+}

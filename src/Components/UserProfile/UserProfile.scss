@@ -1,0 +1,101 @@
+.UserProfile {
+  min-height: 100vh;
+  background: burlywood;
+
+  h1 {
+    padding: 20px 50px 20px 40px;
+    text-align: center;
+  }
+  
+  .container {
+    width: 50%;
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 10px;
+    background: gainsboro;
+
+    .top-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  
+      img {
+        width: 275px;
+        border-radius: 10px;
+      }
+  
+      .top-row__right-side {
+        width: 55%;
+  
+        p {
+          padding: 5px 0;
+          font-style: italic;
+  
+          &:first-child {
+            span {
+              color: black;
+              font-size: 1.5em;
+            }
+          }
+  
+          span {
+            color:indianred;
+            font-size: 1.25em;
+            font-weight: bold;
+            font-style: normal;
+          }
+  
+          .link {
+            color: darkslategray;
+            text-decoration: none;
+            font-size: 1.5em;
+            font-weight: bold;
+            font-style: normal;
+        
+            &:hover {
+              color: black;
+              text-decoration: underline;
+            }
+          }
+        }
+
+        .address {
+          h2 {
+            color: darkslategray;
+          }
+        }
+      }
+    }
+  
+    .bottom-row {
+      p {
+        padding: 5px 0;
+        font-style: italic;
+  
+        &:last-child {
+          padding-bottom: 0;
+        }
+        
+        span {
+          color:chocolate;
+          font-size: 1.25em;
+          font-weight: bold;
+          font-style: normal;
+        }
+      }
+
+      .company {
+        h2 {
+          color: darkslategray;
+        }
+      }
+    }
+  }
+
+  .notification {
+    padding: 20px 50px 20px 40px;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+  }
+}
